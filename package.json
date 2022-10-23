@@ -1,0 +1,17 @@
+{
+  "name": "cypress-test-technical-exercise",
+  "version": "1.0.0",
+  "description": "Technical exercise for QA candidates to demonstrate test writing skills.",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open --config specPattern=cypress/**/*.cy.js --browser chrome --e2e",
+    "cy:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "Aaron Williams",
+  "license": "ISC",
+  "dependencies": {
+    "@testing-library/cypress": "^8.0.3",
+    "cypress": "^10.10.0"
+  }
+}
